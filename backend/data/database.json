@@ -1,0 +1,361 @@
+{
+  "users": [
+    {
+      "id": "user-admin",
+      "name": "Aqua Admin",
+      "email": "admin@aquazone.com",
+      "password": "$2b$10$CFx5.X8/GvI2MMaDvpc6Ou1jBm5SIRlct35qWy1nwHC6zXX9O00Eq",
+      "role": "admin",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=250&q=80",
+      "phone": "+62 812-3456-7890",
+      "address": "Jl. Samudra Bahari No. 88, Jakarta",
+      "createdAt": "2026-11-23T07:37:03.716Z"
+    },
+    {
+      "id": "user-jon",
+      "name": "Jon Karter",
+      "email": "jon@karter.com",
+      "password": "$2b$10$CFx5.X8/GvI2MMaDvpc6OuwTj7WoUP2Wzqn4zrZUUyPg7G510Nmfu",
+      "role": "user",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=250&q=80",
+      "phone": "+62 819-8765-4321",
+      "address": "Sunset Boulevard Suite 12, Bali",
+      "createdAt": "2026-11-23T07:37:03.716Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-1",
+      "name": "Fish"
+    },
+    {
+      "id": "cat-2",
+      "name": "Tank"
+    },
+    {
+      "id": "cat-3",
+      "name": "Substrates"
+    },
+    {
+      "id": "cat-4",
+      "name": "Cleaning Kit"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-f90634fd",
+      "name": "Si Cantik",
+      "genus": "Species",
+      "category": "Fish",
+      "price": 25000,
+      "stock": 20,
+      "rating": 4.8,
+      "ratingCount": 1,
+      "description": "Ikan hias eksotis berkualitas tinggi dengan corak memukau.",
+      "image": "/uploads/product-1795420727821-154453365.jpg",
+      "specifications": {
+        "weight": "4.0 OZ (113g)",
+        "size": "4.5 inch (11.4cm)",
+        "temperature": "22-26°C",
+        "tankSize": "20 gal (75L)",
+        "age": "1.5 Years",
+        "diet": "Omnivore"
+      },
+      "similarSpecies": [],
+      "featured": false,
+      "createdAt": "2026-11-23T07:58:49.812Z"
+    },
+    {
+      "id": "prod-4548593c",
+      "name": "Anggel Anularis",
+      "genus": "Species",
+      "category": "Fish",
+      "price": 200000,
+      "stock": 20,
+      "rating": 4.8,
+      "ratingCount": 1,
+      "description": "Ikan hias eksotis berkualitas tinggi dengan corak memukau.",
+      "image": "/uploads/product-1795420682209-353968456.jpg",
+      "specifications": {
+        "weight": "4.0 OZ (113g)",
+        "size": "4.5 inch (11.4cm)",
+        "temperature": "22-26°C",
+        "tankSize": "20 gal (75L)",
+        "age": "1.5 Years",
+        "diet": "Omnivore"
+      },
+      "similarSpecies": [],
+      "featured": false,
+      "createdAt": "2026-11-23T07:58:03.744Z"
+    },
+    {
+      "id": "prod-8bcf8a50",
+      "name": "Capungan Slyer",
+      "genus": "Species",
+      "category": "Fish",
+      "price": 10000,
+      "stock": 20,
+      "rating": 4.8,
+      "ratingCount": 1,
+      "description": "Ikan hias eksotis berkualitas tinggi dengan corak memukau.",
+      "image": "/uploads/product-1795420636641-754681793.jpg",
+      "specifications": {
+        "weight": "4.0 OZ (113g)",
+        "size": "4.5 inch (11.4cm)",
+        "temperature": "22-26°C",
+        "tankSize": "20 gal (75L)",
+        "age": "1.5 Years",
+        "diet": "Omnivore"
+      },
+      "similarSpecies": [],
+      "featured": false,
+      "createdAt": "2026-11-23T07:57:19.764Z",
+      "updatedAt": "2026-11-23T07:57:31.136Z"
+    },
+    {
+      "id": "prod-2f47d0cc",
+      "name": "Botana Nasu",
+      "genus": "Species",
+      "category": "Fish",
+      "price": 200000,
+      "stock": 20,
+      "rating": 4.8,
+      "ratingCount": 1,
+      "description": "Ikan hias eksotis berkualitas tinggi dengan corak memukau.",
+      "image": "/uploads/product-1795420366149-507533367.jpeg",
+      "specifications": {
+        "weight": "4.0 OZ (113g)",
+        "size": "4.5 inch (11.4cm)",
+        "temperature": "22-26°C",
+        "tankSize": "20 gal (75L)",
+        "age": "1.5 Years",
+        "diet": "Omnivore"
+      },
+      "similarSpecies": [],
+      "featured": false,
+      "createdAt": "2026-11-23T07:52:48.787Z"
+    },
+    {
+      "id": "prod-f7abe8e9",
+      "name": "Nemo",
+      "genus": "Species",
+      "category": "Fish",
+      "price": 50000,
+      "stock": 20,
+      "rating": 4.8,
+      "ratingCount": 1,
+      "description": "Ikan hias eksotis berkualitas tinggi dengan corak memukau.",
+      "image": "/uploads/product-1795420317926-117641218.jpg",
+      "specifications": {
+        "weight": "4.0 OZ (113g)",
+        "size": "4.5 inch (11.4cm)",
+        "temperature": "22-26°C",
+        "tankSize": "20 gal (75L)",
+        "age": "1.5 Years",
+        "diet": "Omnivore"
+      },
+      "similarSpecies": [],
+      "featured": false,
+      "createdAt": "2026-11-23T07:52:00.077Z"
+    },
+    {
+      "id": "prod-oranda-goldfish",
+      "name": "Dori",
+      "genus": "Oranda",
+      "category": "Fish",
+      "price": 185000,
+      "stock": 33,
+      "rating": 4.5,
+      "ratingCount": 128,
+      "description": "Ikan Mas Koki Oranda terkenal dengan jambul (wen) berbentuk buah rasberi di atas kepalanya. Perenang yang anggun dan jinak dengan sirip ekor melambai indah.",
+      "image": "/uploads/product-1795420393581-491868482.jpg",
+      "specifications": {
+        "weight": "4.8 OZ (136g)",
+        "size": "4.9 inch (12.5cm)",
+        "temperature": "18-20°C",
+        "tankSize": "18 gal (68L)",
+        "age": "2 Years",
+        "diet": "Omnivore"
+      },
+      "similarSpecies": [
+        {
+          "id": "prod-pufferfish",
+          "name": "Pufferfish",
+          "price": 275000,
+          "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=400&q=80"
+        },
+        {
+          "id": "prod-betta",
+          "name": "Betta Fish",
+          "price": 220000,
+          "image": "https://images.unsplash.com/photo-1534043464124-3be32fe000c9?auto=format&fit=crop&w=400&q=80"
+        },
+        {
+          "id": "prod-guppy",
+          "name": "Fancy Guppy",
+          "price": 130000,
+          "image": "https://images.unsplash.com/photo-1520302630591-fd1c66edc19d?auto=format&fit=crop&w=400&q=80"
+        }
+      ],
+      "featured": true,
+      "createdAt": "2026-11-23T07:37:03.716Z",
+      "updatedAt": "2026-11-23T07:53:14.801Z"
+    },
+    {
+      "id": "prod-warsee-fish",
+      "name": "Rainbow kotak",
+      "genus": "Apistogramma",
+      "category": "Fish",
+      "price": 240000,
+      "stock": 20,
+      "rating": 4.7,
+      "ratingCount": 94,
+      "description": "",
+      "image": "https://images.unsplash.com/photo-1524704654690-b56c05c78a00?auto=format&fit=crop&w=800&q=80",
+      "specifications": {
+        "weight": "3.2 OZ (90g)",
+        "size": "3.5 inch (8.9cm)",
+        "temperature": "22-26°C",
+        "tankSize": "15 gal (57L)",
+        "age": "1.5 Years",
+        "diet": "Herbivore"
+      },
+      "similarSpecies": [
+        {
+          "id": "prod-oranda-goldfish",
+          "name": "Oranda Goldfish",
+          "price": 185000,
+          "image": "https://images.unsplash.com/photo-1522069169874-c58ec4b76be5?auto=format&fit=crop&w=400&q=80"
+        },
+        {
+          "id": "prod-clownfish",
+          "name": "Clownfish",
+          "price": 310000,
+          "image": "https://images.unsplash.com/photo-1544551763-77ef2d0cfc6c?auto=format&fit=crop&w=400&q=80"
+        }
+      ],
+      "featured": true,
+      "createdAt": "2026-11-23T07:37:03.716Z",
+      "updatedAt": "2026-11-23T07:53:58.247Z"
+    },
+    {
+      "id": "prod-betta",
+      "name": "Scorpion Kembang ",
+      "genus": "Betta",
+      "category": "Fish",
+      "price": 220000,
+      "stock": 25,
+      "rating": 4.8,
+      "ratingCount": 165,
+      "description": "",
+      "image": "/uploads/product-1795420408080-20035621.jpg",
+      "specifications": {
+        "weight": "1.2 OZ (34g)",
+        "size": "2.8 inch (7.1cm)",
+        "temperature": "24-28°C",
+        "tankSize": "5 gal (19L)",
+        "age": "1 Year",
+        "diet": "Carnivore"
+      },
+      "similarSpecies": [
+        {
+          "id": "prod-guppy",
+          "name": "Fancy Guppy",
+          "price": 130000,
+          "image": "https://images.unsplash.com/photo-1520302630591-fd1c66edc19d?auto=format&fit=crop&w=400&q=80"
+        },
+        {
+          "id": "prod-oranda-goldfish",
+          "name": "Oranda Goldfish",
+          "price": 185000,
+          "image": "https://images.unsplash.com/photo-1522069169874-c58ec4b76be5?auto=format&fit=crop&w=400&q=80"
+        }
+      ],
+      "featured": false,
+      "createdAt": "2026-11-23T07:37:03.716Z",
+      "updatedAt": "2026-11-23T07:53:46.849Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-5259",
+      "userId": "user-jon",
+      "userName": "Jon Karter",
+      "userEmail": "jon@karter.com",
+      "userPhone": "+62 819-8765-4321",
+      "shippingAddress": "Denpasar, Bali",
+      "items": [
+        {
+          "productId": "prod-oranda-goldfish",
+          "name": "Oranda Goldfish",
+          "price": 185000,
+          "quantity": 2,
+          "image": "https://images.unsplash.com/photo-1522069169874-c58ec4b76be5?auto=format&fit=crop&w=600&q=80"
+        }
+      ],
+      "subtotal": 370000,
+      "shippingFee": 25000,
+      "totalAmount": 395000,
+      "paymentMethod": "QRIS",
+      "status": "Shipped",
+      "notes": "Kemasan aerasi oksigen hidup",
+      "createdAt": "2026-11-23T07:37:05.148Z",
+      "updatedAt": "2026-11-23T07:37:05.179Z"
+    },
+    {
+      "id": "ord-1001",
+      "userId": "user-jon",
+      "userName": "Jon Karter",
+      "userEmail": "jon@karter.com",
+      "userPhone": "+62 819-8765-4321",
+      "shippingAddress": "Sunset Boulevard Suite 12, Bali",
+      "items": [
+        {
+          "productId": "prod-oranda-goldfish",
+          "name": "Oranda Goldfish",
+          "price": 185000,
+          "quantity": 2,
+          "image": "https://images.unsplash.com/photo-1522069169874-c58ec4b76be5?auto=format&fit=crop&w=400&q=80"
+        },
+        {
+          "productId": "prod-sub-stratum",
+          "name": "Fluval Plant & Shrimp Stratum 4KG",
+          "price": 385000,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=400&q=80"
+        }
+      ],
+      "subtotal": 755000,
+      "shippingFee": 25000,
+      "totalAmount": 780000,
+      "paymentMethod": "QRIS / Instant Transfer",
+      "status": "Delivered",
+      "notes": "Kemasan aerasi oksigen khusus hidup ya!",
+      "createdAt": "2026-11-20T07:37:03.716Z"
+    },
+    {
+      "id": "ord-1002",
+      "userId": "user-jon",
+      "userName": "Jon Karter",
+      "userEmail": "jon@karter.com",
+      "userPhone": "+62 819-8765-4321",
+      "shippingAddress": "Sunset Boulevard Suite 12, Bali",
+      "items": [
+        {
+          "productId": "prod-warsee-fish",
+          "name": "Warsee Fish",
+          "price": 240000,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1524704654690-b56c05c78a00?auto=format&fit=crop&w=400&q=80"
+        }
+      ],
+      "subtotal": 240000,
+      "shippingFee": 25000,
+      "totalAmount": 265000,
+      "paymentMethod": "Cash on Delivery (COD)",
+      "status": "Processing",
+      "notes": "Kabari jika kurir sudah dekat.",
+      "createdAt": "2026-11-23T07:37:03.716Z"
+    }
+  ]
+}
